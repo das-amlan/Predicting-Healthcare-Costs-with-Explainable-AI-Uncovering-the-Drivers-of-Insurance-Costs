@@ -22,13 +22,15 @@ The dataset used for this project is `insurance.csv`, which contains information
    - Loaded the dataset using Pandas.
    - Explored the dataset to understand its structure and identify missing values.
    - Visualized the missing values using a heatmap and decided to drop rows with missing values.
+   - Standardize categories in region
+   - Standardize sex to just two categories 
+   - Standardize charges data type (float) 
 
 2. **Feature Engineering**
-   - Standardized the numerical features using `StandardScaler`.
    - Converted categorical variables into numerical representations using one-hot encoding.
 
 3. **Model Training and Evaluation**
-   - Split the dataset into training and testing sets.
+   - Split the dataset into training, validation, and testing sets.
    - Trained multiple regression models, including Linear Regression and Random Forest regression.
    - Evaluated the models using mean squared error (MSE) and R-squared (R²) metrics.
    - Performed hyperparameter tuning using GridSearchCV to optimize the model performance.
