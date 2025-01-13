@@ -29,7 +29,7 @@ The dataset used for this project is `insurance.csv`, which contains information
 
 3. **Model Training and Evaluation**
    - Split the dataset into training and testing sets.
-   - Trained multiple regression models, including Linear Regression and Random Forest Regressor.
+   - Trained multiple regression models, including Linear Regression and Random Forest regression.
    - Evaluated the models using mean squared error (MSE) and R-squared (R²) metrics.
    - Performed hyperparameter tuning using GridSearchCV to optimize the model performance.
 
@@ -40,6 +40,8 @@ The dataset used for this project is `insurance.csv`, which contains information
 - **Smoking status** has by far the largest impact on insurance charges compared to non-smokers.
 - The `age` and `bmi` of the beneficiaries were found to be significant predictors of healthcare costs.
 - The number of `children` has minimal impact, while `sex` and `regional` differences have negligible influence on charges.
+
+![feature importance](shapleyValue.png "Feature Importance")
 
 ## Conclusion
 The project successfully predicted healthcare costs using machine learning models and provided valuable insights into the factors driving these costs. The use of explainable AI techniques like SHAP helped in understanding the model's predictions and making the results more interpretable.
