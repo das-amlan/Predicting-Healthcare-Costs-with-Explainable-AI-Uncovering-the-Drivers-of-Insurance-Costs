@@ -1,4 +1,4 @@
-# Predicting Healthcare Costs with Explainable AI: Uncovering the Drivers of Insurance Costs
+# Predicting Customer Insurance Costs: Uncovering the Drivers of Insurance Costs with XAI
 
 ## Project Overview
 This project aims to predict customer healthcare costs using machine learning and explainable AI to uncover the key drivers of insurance costs. The insights gained from this analysis will help tailor services and guide customers in planning their healthcare expenses more effectively.
